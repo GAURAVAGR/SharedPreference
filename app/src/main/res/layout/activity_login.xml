@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        >
+
+            <TextView
+
+                android:text="username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv5"  />
+
+        <EditText
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/username"
+            android:text="test" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dip"
+        >
+
+
+        <TextView
+            android:text="Pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/userpin"
+            android:text="1234" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login"
+            android:width="100dp"
+              />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/signup" />
+
+        </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@android:drawable/alert_light_frame"
+            android:layout_column="1"
+
+            android:id="@+id/img"
+            />
+    </TableRow>
+
+    <!--
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:text="Login Here."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:text="First Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <EditText
+                android:width="200px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Last Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <EditText
+                android:width="100px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/button"
+                android:layout_column="1" />
+        </TableRow>
+
+    -->
+
+</TableLayout>
